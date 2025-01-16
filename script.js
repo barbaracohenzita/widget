@@ -1,4 +1,3 @@
-// script.js
 function updateClock() {
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, '0');
