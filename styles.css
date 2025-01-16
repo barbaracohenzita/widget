@@ -4,6 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #000;
+    background-image: url('arcade-background.png'); /* Add a background image */
+    background-size: cover;
 }
 
 #arcade-clock {
@@ -11,4 +13,18 @@ body {
     font-size: 4em;
     color: #00FF00;
     text-shadow: 2px 2px 8px #FF0000;
+    padding: 20px;
+    border: 5px solid #FF0000;
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
+    border-radius: 15px; /* Rounded corners */
+    animation: glow 1s infinite alternate; /* Glowing effect */
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 2px 2px 8px #FF0000, 0 0 10px #FF0000, 0 0 20px #FF0000;
+    }
+    to {
+        text-shadow: 2px 2px 8px #FF0000, 0 0 20px #FF0000, 0 0 30px #FF0000;
+    }
 }
