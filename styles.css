@@ -9,7 +9,7 @@ body {
 }
 
 #arcade-clock {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New", monospace;
     font-size: 29px;
     letter-spacing: -0.8px;
     word-spacing: -2.8px;
